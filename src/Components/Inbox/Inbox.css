@@ -1,0 +1,14 @@
+.heading{
+  margin: 10px;
+  font-weight: 600;  
+}
+.block{
+  padding: 40px;
+  width: 50%;
+  margin: 20px 0px;
+  box-sizing: border-box;
+  border: 1px solid rgba(106, 48, 173, 0.16);
+  background-color: rgba(125, 164, 197, 0.16);
+  align-items: center;
+  justify-content: center;
+}

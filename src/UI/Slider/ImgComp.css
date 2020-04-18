@@ -1,0 +1,33 @@
+.textOverImage{
+    position:relative;
+    width:300px;
+    height:300px;
+    float:left;
+    /* margin:4px; */
+    background-size:100%;
+    background-position:center;
+    transition:0.5s;
+  }
+
+  .textOverImage:after{
+    position:absolute;
+    top:100%;
+    bottom:0;
+    left:0;
+    right:0;
+    white-space:pre-wrap;
+    overflow:hidden;
+    background-color:rgba(0,0,0,0.6);
+    color:rgba(255, 255, 255, 0.952);
+    padding:0 8px;
+    opacity:0;
+    content:attr(data-text);
+    transition:0.3s;
+  }
+  
+  .textOverImage:hover:after{
+    opacity:0.8;
+    top:70%;
+    padding:8px;
+  }
+  
