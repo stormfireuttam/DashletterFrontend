@@ -1,0 +1,6 @@
+The Dependencies needed to be installed are as follows:
+1) npm install --save react-router react-router-dom
+2) npm install --save react-bootstrap bootstrap
+
+//npm i node-sass
+//npm install --save react @trendmicro/react-sidenav
